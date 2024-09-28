@@ -8,6 +8,8 @@ Member Registration: Allows adding new members with their personal details, gym 
 Member Management: View, edit, and delete existing member information.
 
 ## **Technologies Used**
-Frontend: HTML, CSS (for structure and styling) 
-JavaScript (for interactivity) 
-Backend: MySQL (for storing member data)
+Frontend:  
+HTML, CSS (for structure and styling)  
+JavaScript (for interactivity)  
+Backend:  
+JSON (for storing member data)  
