@@ -13,3 +13,6 @@ HTML, CSS (for structure and styling)
 JavaScript (for interactivity)  
 **Backend**:  
 JSON (for storing member data)  
+
+## **How to use**
+Download the repository from GitHub. Then run the login.html in browser.  
