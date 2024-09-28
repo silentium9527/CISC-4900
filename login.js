@@ -12,10 +12,11 @@ function login() {
     }
 
     // Login successful
-    if (username === "admin" && password === "12345") {
-        alert("登录成功！");
+    if (username === "admin" && password === "123") {
+        alert("Login successful！");
         errorMessage.style.display = "none";
-        // 可在这里进行页面跳转或其他处理
+        // jump to main page
+        window.location.href = "main.html";
     } 
     
     // Wrong username or password
