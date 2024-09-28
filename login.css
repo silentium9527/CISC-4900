@@ -8,9 +8,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center;      /* 垂直居中 */
-    height: 100vh;            /* 高度设置为100视窗高度，确保居中 */
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
 }
 
 .login-container {
