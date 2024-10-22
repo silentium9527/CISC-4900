@@ -16,7 +16,7 @@ function login() {
         alert("Login successful！");
         errorMessage.style.display = "none";
         // jump to main page
-        window.location.href = "main.html";
+        window.location.href = "/main/main.html";
     } 
     
     // Wrong username or password
