@@ -7,8 +7,7 @@ This is a web-based Gym Membership Management System designed to manage gym memb
 **Member Registration**: Allows adding new members with their personal details, gym goals, and membership type.  
 **Member Management**: View, edit, and delete existing member information. 
 
-## **Technologies Used**
-**Frontend**:  
+## **Technologies Used** 
 HTML, CSS (for structure and styling)  
 JavaScript (for interactivity)  
 
