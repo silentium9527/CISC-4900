@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Search</title>
+    <link rel="stylesheet" href="search.css"> 
+</head>
+<body>
+
+<h2>Search Member</h2>
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="Input Name or phone number" onkeyup="searchMembers()">
+</div>
+
+<ul id="memberList" class="member-list"></ul>
+
+<script>
+    function displayMembers() {
+        const members = JSON.parse(localStorage.getItem('members')) || [];
+        const memberList = document.getElementById('memberList');
+
+        // clear list
+        memberList.innerHTML = '';
+
+        members.forEach(member => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${member.firstname} ${member.lastname} - ${member.phone}`;
+            memberList.appendChild(listItem);
+        });
+    }
+
+    function searchMembers() {
+        const input = document.getElementById('searchInput').value.toLowerCase();
+        const members = JSON.parse(localStorage.getItem('members')) || [];
+        const memberList = document.getElementById('memberList');
+
+        // clear list
+        memberList.innerHTML = '';
+
+        members.forEach(member => {
+            const fullName = `${member.firstname} ${member.lastname}`.toLowerCase();
+            const phone = member.phone.toLowerCase();
+
+            // check if match
+            if (fullName.includes(input) || phone.includes(input)) {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${member.firstname} ${member.lastname} - ${member.phone}`;
+                memberList.appendChild(listItem);
+            }
+        });
+    }
+
+    // show all member
+    displayMembers();
+</script>
+
+</body>
+</html>
