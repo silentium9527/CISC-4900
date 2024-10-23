@@ -11,8 +11,9 @@ This is a web-based Gym Membership Management System designed to manage gym memb
 **Frontend**:  
 HTML, CSS (for structure and styling)  
 JavaScript (for interactivity)  
-**Backend**:  
-JSON (for storing member data)  
+
+## **Data storage**
+Local Storage  
 
 ## **How to use**
 Download the repository from GitHub. Then run the login.html in browser.  
