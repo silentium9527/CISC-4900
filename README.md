@@ -16,3 +16,5 @@ Local Storage
 
 ## **How to use**
 Download the repository from GitHub. Then run the login.html in browser.  
+User name: admin  
+Password: 123
