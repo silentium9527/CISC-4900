@@ -8,8 +8,12 @@ This is a web-based Gym Membership Management System designed to manage gym memb
 **Member Management**: View, edit, and delete existing member information. 
 
 ## **Technologies Used** 
+### * Coding language: *
 HTML, CSS (for structure and styling)  
 JavaScript (for interactivity)  
+
+### * Development Tools*
+Visual Studio Code, SQLyog, IntelliJ IDEA
 
 ## **Data storage**
 Local Storage  
