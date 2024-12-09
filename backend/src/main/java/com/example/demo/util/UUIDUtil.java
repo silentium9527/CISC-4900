@@ -11,7 +11,7 @@ public class UUIDUtil {
         return uid;
     }
 
-    //测试
+    //test
     public static void main(String[] args) {
         String uid = UUIDUtil.getUUID();
         System.out.println("===="+uid);
