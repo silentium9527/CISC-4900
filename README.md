@@ -15,9 +15,9 @@ HTML, CSS, JavaScript, Java
 Visual Studio Code, SQLyog, IntelliJ IDEA
 
 ## **Data storage**
-Local Storage  
+MySQL database
 
 ## **How to use**
-Download the repository from GitHub. Then run the login.html in browser.  
-User name: admin  
-Password: 123
+1. Download the repository from GitHub, and make sure your computer has Visual Studio Code, SQLyog, IntelliJ IDEA, Java.
+2. In IntelliJ IDEA, add "../backend/pom.xml" as an existing source, and set SDK as "Oracle OpenJDK 17.0.1", then run.
+3. Copy "../data.sql" and paste into SQLyog
