@@ -21,7 +21,7 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    //查询所有商品
+    //Search all product
     @GetMapping("/all")
     public ResponseEntity<Map<String,Object>> getAll(HttpServletRequest request){
         Map<String,Object> map=new HashMap<String, Object>();
@@ -36,7 +36,7 @@ public class ProductController {
         return ResponseEntity.ok(map);
     }
 
-    //根据名称查询对应商品
+    //Search by name
     @GetMapping("/name/{name}")
     public ResponseEntity<Map<String,Object>> getAll(HttpServletRequest request,@PathVariable String name){
         Map<String,Object> map=new HashMap<String, Object>();
@@ -51,7 +51,7 @@ public class ProductController {
         return ResponseEntity.ok(map);
     }
 
-    //新增商品
+    //new product
     @PostMapping("/")
     public ResponseEntity<Map<String,Object>> save(@RequestBody Product product) {
         Map<String,Object> map=new HashMap<String, Object>();
