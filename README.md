@@ -20,8 +20,9 @@ Visual Studio Code, SQLyog, IntelliJ IDEA
 ## **Data storage**
 MySQL database
 
-## **How to use**
+## **How to set up**
 1. Download the repository from GitHub, and make sure your computer has Visual Studio Code, SQLyog, IntelliJ IDEA, Java.
 2. In IntelliJ IDEA, add "../backend/pom.xml" as an existing source, and set SDK as "Oracle OpenJDK 17.0.1", then click run.
 3. Copy "../data.sql" and paste into SQLyog, click run.
-4. Open VScode, download Live Server extension. Then run "../f
+4. Open VScode, download Live Server extension. Then open "../fontend/login.html" with Live Server.
+5. Now you can use the membership management system in your browser.
