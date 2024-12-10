@@ -25,5 +25,5 @@ MySQL database
 5. Now you can use the membership management system in your browser.
 
 ## **Future Plans**
--Enables online access, allowing member profiles to be viewed and updated remotely.
--Provides a training course schedule, showing the time and status of scheduled courses
+- Enables online access, allowing member profiles to be viewed and updated remotely.
+- Provides a training course schedule, showing the time and status of scheduled courses
