@@ -11,11 +11,8 @@ This is a web-based Gym Membership Management System designed to manage gym memb
 **Purchase Products**: Select a member to purchase the specified product.
 
 ## **Technologies Used** 
-### Coding language: 
-HTML, CSS, JavaScript, Java
-
-### Development Tools
-Visual Studio Code, SQLyog, IntelliJ IDEA
+-**Programming  language**: HTML, CSS, JavaScript, Java
+-**Development Tools**: Visual Studio Code, SQLyog, IntelliJ IDEA
 
 ## **Data storage**
 MySQL database
@@ -26,3 +23,7 @@ MySQL database
 3. Copy "../data.sql" and paste into SQLyog, click run.
 4. Open VScode, download Live Server extension. Then open "../fontend/login.html" with Live Server.
 5. Now you can use the membership management system in your browser.
+
+## **Future Plans**
+-Enables online access, allowing member profiles to be viewed and updated remotely.
+-Provides a training course schedule, showing the time and status of scheduled courses
